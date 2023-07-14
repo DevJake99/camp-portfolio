@@ -1,6 +1,6 @@
 
 header  {
-    padding: 40px;
+    padding: 30px;
     align-items: center;
     background: #13293d;
     color: black;
@@ -22,6 +22,13 @@ header  {
     background-color:blanchedalmond
   }
 
+  .headerr{
+    color: blanchedalmond;
+    margin-left: -87%;
+    padding: 0;
+    
+  }
+
   .center{
 
     list-style-type: none;
@@ -33,6 +40,22 @@ header  {
 
   }
 
+  /* <---Borrowing .row and .justify-center code from module02/solved mini challlenge.----->
+  .row will create our main grid with flexbox, use negative margins to offset the
+   padding on the .card-column class */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+
+
 
   .profile {
     width: 300px;
@@ -42,6 +65,8 @@ header  {
 
 .sgpng{
     border-radius: 150px;
+    width:80%; 
+    height: auto;
 }
 
   .psec{
@@ -51,6 +76,27 @@ header  {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
   }
+
+  /* .glow code borrowed from mini project, makes each project section a flexbox column to align and justify content within it*/
+  .glow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: #13293d;
+  
+    /* outline is like border, but on the outside of the box instead of inside */
+    outline: 2px dashed #e0eae4;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }  
+
+
+.glow:hover,
+.glow:hover {
+  box-shadow: inset 0px 0px 8px #13293d, 0 0 15px #13293d;
+}
 
 .button {
     
