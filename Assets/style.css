@@ -1,96 +1,93 @@
-
-header  {
-    padding: 30px;
-    align-items: center;
-    background: #13293d;
-    color: black;
-
-
-  }
-
-  footer  {
-    padding: 15px;
-    align-items: center;
-    background: #13293d;
-    color: black;
-    display: flex; 
-    justify-content: center;
-    
-  }
-
-  body {
-    background-color:blanchedalmond
-  }
-
-  .headerr{
-    color: blanchedalmond;
-    margin-left: -87%;
-    padding: 0;
-    
-  }
-
-  .center{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px
-
-  }
-
-  /* <---Borrowing .row and .justify-center code from module02/solved mini challlenge.----->
-  .row will create our main grid with flexbox, use negative margins to offset the
-   padding on the .card-column class */
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-  
-  .justify-center {
-    justify-content: center;
-  }
+header {
+  padding: 30px;
+  align-items: center;
+  background: #13293d;
+  color: black;
 
 
-
-  .profile {
-    width: 300px;
-    border-radius: 120px;
-   
-  }
-
-.sgpng{
-    border-radius: 150px;
-    width:80%; 
-    height: auto;
 }
 
-  .psec{
-    display:block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-  }
+footer {
+  padding: 15px;
+  background: #13293d;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
 
-  /* .glow code borrowed from mini project, makes each project section a flexbox column to align and justify content within it*/
-  .glow {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: #13293d;
-  
-    /* outline is like border, but on the outside of the box instead of inside */
-    outline: 2px dashed #e0eae4;
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-  }  
+}
+
+body {
+  background-color: blanchedalmond
+}
+
+.headerr {
+  color: blanchedalmond;
+  margin-left: -87%;
+  padding: 0;
+
+}
+
+.center {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px
+}
+
+/* <---Borrowing .row and .justify-center code from module02/solved mini challlenge.----->
+  .row will create our main grid with flexbox, use negative margins to offset the
+   padding on the .card-column class */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+
+
+.profile {
+  width: 300px;
+  border-radius: 120px;
+
+}
+
+.sgpng {
+  border-radius: 150px;
+  width: 80%;
+  height: auto;
+}
+
+.psec {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+/* .glow code borrowed from mini project, makes each project section a flexbox column to align and justify content within it*/
+.glow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+  padding: 2rem;
+  color: #13293d;
+
+  /* outline is like border, but on the outside of the box instead of inside */
+  outline: 2px dashed #e0eae4;
+  outline-offset: -2px;
+  transition: all 0.5s ease-in-out;
+}
 
 
 .glow:hover,
@@ -102,36 +99,36 @@ header  {
 .button {
   border: black;
   text-decoration: solid;
-  background-color:beige;
-  font-size: 25px
-  padding: 14px 40px;
+  background-color: beige;
+  font-size: 25px padding: 14px 40px;
   border-radius: 5px;
 }
-    
-   
+
+
 
 .nav {
   float: right;
   bottom: 0;
 }
 
-  h1 {
-    padding: 15px;
-    text-align: center;
-    color: #13293d;
-  }
+h1 {
+  padding: 15px;
+  text-align: center;
+  color: #13293d;
+}
 
 .banner {
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    float: left;
-    width: 125%;
-  }
-.about {
-    text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 125%;
 }
-  /*.banner header {
+
+.about {
+  text-align: left;
+}
+
+/*.banner header {
     padding: 10px;
   }*/
-  
