@@ -96,25 +96,24 @@ header  {
 .glow:hover,
 .glow:hover {
   box-shadow: inset 0px 0px 8px #13293d, 0 0 15px #13293d;
+  border-radius: 120px;
 }
 
 .button {
-    
-    border: black;
-    text-decoration: solid;
-    background-color:beige;
-    font-size: 25px
-    padding: 14px 40px;
-    border-radius: 5px;
-
+  border: black;
+  text-decoration: solid;
+  background-color:beige;
+  font-size: 25px
+  padding: 14px 40px;
+  border-radius: 5px;
 }
     
    
 
-  .nav {
-    float: right;
-    bottom: 0;
-  }
+.nav {
+  float: right;
+  bottom: 0;
+}
 
   h1 {
     padding: 15px;
